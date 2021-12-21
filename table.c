@@ -5,14 +5,14 @@ void main()
   printf("the value of n :");
    scanf("%d",&n);
    
-  for(i=1;i<=n;i++)
+  for(i=1;i<=10;i++)
   { 
-    tab=i*1;
-  	printf(" %d x 1 = %d",i,tab);
+    tab=n*i;
+  	printf(" %d x %d = %d",n,i,tab);
+  	printf("\n");
     
   	
   }
   
  
 }
-
